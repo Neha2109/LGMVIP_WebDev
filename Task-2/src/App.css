@@ -1,0 +1,106 @@
+.icon-spin {
+  -webkit-animation: icon-spin 2s infinite linear;
+  animation: icon-spin 2s infinite linear;
+}
+
+@-webkit-keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: aqua;
+}
+.cl {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.cl img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.col-md-4 {
+  margin-bottom: 30px;
+}
+
+.card {
+  padding: 30px;
+  border: solid 1px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 0 15px 15px 15px black;
+  transition: ease-in 0.1s;
+}
+.card-title {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+.card-text {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+.card-text .fa {
+  font-size: 26px;
+}
+.avatar {
+  width: 140px;
+  margin: auto;
+}
+.avatar img {
+  border: solid 6px transparent;
+  border-color: black;
+}
+.card:hover .avatar img {
+  border-color: aqua;
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1040px;
+  }
+}
+
+.clearfix {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}

@@ -1,0 +1,31 @@
+#ppp {
+  height: 11cm;
+  margin: 2px !important;
+}
+#A_name {
+  font-size: 1rem !important;
+}
+
+#kkk {
+  font-size: 0.7rem !important;
+}
+
+#headphone {
+  width: 10cm !important;
+  height: 9cm !important;
+  width: 70% !important;
+}
+#show button {
+  height: 10px !important;
+  width: 10px !important;
+  margin-right: 10px;
+}
+#show button:hover {
+  transform: none !important;
+  border-radius: 2px !important;
+  padding: 2px 2px 2px 2px !important;
+}
+#credit {
+  padding-left: 20% !important;
+  font-size: 0.7rem !important;
+}

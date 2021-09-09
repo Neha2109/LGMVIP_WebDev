@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+	<meta name="theme-color" content="#000000">
+	<title>Melofy</title>
+	<link rel="stylesheet" href="css/style.css">
+   
+	<link rel="stylesheet" media="screen and (max-width: 780px)" href="css/phone.css">
+	<link rel="stylesheet" media="screen and (max-width: 691px)" href="css/phone1.css">
+
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	
+</head>
+<body>
+
+	<div class="main" id="mains">
+		<div class="progress_bar" id="Bar"></div>
+		<img src="bgg.jpg" alt="" id="bg">
+
+	
+		<div class="navbar">
+			<a href="#" id="logo"><i class='bx bxs-bar-chart-alt-2' ></i>&nbsp;Melofy</a>
+            <a onclick="open_close_menu()" id="responsive_menu"><i class='bx bxs-chevron-down' ></i></a>
+
+			<div class="nav_content" id="yyy">
+				<li><a href="#">Home</a></li>
+				<li><a href="#top_tracks">New</a></li>
+				<li><a href="#types">Tracks</a></li>
+				<li><a href="#singers">Artists</a></li>
+				<li><a href="#user_comments">Comments</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#">Premium</a></li>
+			</div>
+
+            <a onclick="menu_action()" id="menu_btn"><i class='bx bx-menu-alt-left'></i></a>
+			<div class="side_menu">
+				<li><a href="#"><i class='bx bx-category'></i></a></li>
+				<li><a href="#"><i class='bx bxs-message-square-detail'></i></a></li>
+			
+				<li><a href="#"><i class='bx bxs-movie-play'></i></a></li>
+			
+				<li><a href="#"><i class='bx bx-merge'></i></a></li>
+				<li><a href="#"><i class='bx bxs-cart-add'></i></a></li>
+				<li><a href="#"><i class='bx bx-tv'></i></a></li>
+			</div>
+		</div>
+        
+    <div>
+		<div class=" row mid_part" id="ppp">
+
+			<div class="description ">
+				<p id="A_name">Melofy</p>
+				<br>
+				<p id="kkk">Power to stirr the emotions</p>
+				<br>
+				<div class="author_desc">
+				   <p id="kkk">When words fail , MUSIC speaks <br>- The strongest form of MAGIC</p>
+				</div>
+
+                 <div class="buttons" id="show">
+                  
+				   <button><i class='bx bxs-like' ></i></button>
+				   
+				   <button><i class='bx bx-play'></i></button>
+				   <button><i class='bx bx-bookmark-alt'></i></button>
+				   <button><i class='bx bx-share-alt'></i></button>
+                 </div>
+
+			</div>
+			<div class="img1">
+			<img align="right" class="head" id="headphone" src="images/headphone.png" alt="" >
+			</div>
+		
+		</div>
+		</div>
+
+        
+		<div class="top_tracks" id="top_tracks">
+			<p id="heading" style="padding-top: 10px;"><i class='bx bxs-playlist'></i>&nbsp;&nbsp;Latest Hits</p>
+			<div id="track"></div>
+			
+			<div id="track">
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+
+				<audio src="latest/Manike Mage Hithe _ Yohani Ft. Muzistar _ Hindi Rap _ Prod. By Chamath Sangeeth _ 🇮🇳 ❤️ 🇱🇰.mp3" id="music"></audio>
+
+				<div id="song_desc">
+				   <p>Manike Mage Hithe</p>
+		
+				   <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+			
+				</div>
+				<div id="actions_2">
+				  <p><a href="#"><i class='bx bx-share' ></i></a></p>
+				  <p><a href="Manike Mage Hithe _ Yohani Ft. Muzistar _ Hindi Rap _ Prod. By Chamath Sangeeth _ 🇮🇳 ❤️ 🇱🇰.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+
+			<div id="track">
+				
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="latest/Baawla - Badshah.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					<p>Baawla</p>
+		
+				   <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+		
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="Baawla - Badshah.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+
+			<div id="track">
+				
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="latest/Jaane Meri Jaaneman Bachpan Ka Pyar.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Bachpan Ka Pyar</p>
+				     
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+		
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="Jaane Meri Jaaneman Bachpan Ka Pyar.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+
+			<div id="track">
+				
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="latest/Kabhi Tumhe Female - Shershaah.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Kabhi Tumhe</p>
+			
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="Kabhi Tumhe Female - Shershaah.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+
+			<div id="track">
+				
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="latest/Mann Bharryaa 2 - Shershaah.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Mann Bharryaa</p>
+				    
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="Mann Bharryaa 2 - Shershaah.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+
+
+			<div id="track">
+				
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="latest/Param Sundari - Mimi.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Param Sundari</p>
+				    
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="Param Sundari - Mimi.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+
+
+			<div id="track">
+				
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="latest/Raataan Lambiyan - Shershaah.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Raataan Lambiyan</p>
+				    
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="Raataan Lambiyan - Shershaah.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+
+
+			<div id="track">
+				
+				<div id="actions">
+					<a href="#"><i class='bx bx-heart' ></i></a>
+					<a id="play_pause"><i class='bx bx-play'></i></a>
+				</div>
+				<audio src="latest/Ranjha - Shershaah.mp3" id="music"></audio>
+
+				<div id="song_desc">
+					 <p>Ranjha</p>
+				    
+				     <p id="total_download"><i class='bx bx-download'></i>&nbsp;&nbsp;2000+</p>
+				</div>
+
+				<div id="actions_2">
+				  <p><i class='bx bx-share' ></i></p>
+				  <p><a href="Ranjha - Shershaah.mp3" download><i class='bx bx-download'></i></a></p>
+				</div>
+			</div>
+
+
+		
+
+		</div>
+
+
+
+	<!-- popular creator part -->
+	<div class="popular_creator types" id="types">
+		<p id="heading"><i class='bx bx-carousel' ></i>&nbsp;&nbsp;Categories</p>
+		 <div class="artists_list">
+
+			 <div class="artist">
+				 <img src="images/emotional.png" alt="">
+				 <div class="artist_desc">
+					 <a href="emotional/player.html" id="hell">Emotional Songs</a>
+				 </div>
+				 
+			 </div>
+
+			 <div class="artist">
+				<img src="images/haryana.jpg" alt="">
+				<div class="artist_desc">
+					<a href="Haryanvi/player.html" id="hell">Haryanvi Songs</a>
+				</div>
+				
+			</div>
+
+			 <div class="artist">
+				 <img src="images/hollywood.jpeg" alt="">
+				 <div class="artist_desc">
+					 <a href="english/player.html" id="hell">English Songs</a>
+				 </div>
+			 </div>
+
+			 <div class="artist">
+				 <img src="images/old.jpg" alt="">
+				 <div class="artist_desc">
+					 <a href="old/player.html" id="hell"> 90's Hits</a>
+					
+				 </div>
+			 </div>
+
+			 <div class="artist">
+				 <img src="images/party.jpg" alt="">
+				 <div class="artist_desc">
+					 <a href="party/player.html"  id="hell">Party Songs</a>
+
+				 </div>
+			 </div>
+
+
+			 <div class="artist">
+				<img src="images/bts.jpg" alt="">
+				<div class="artist_desc">
+					<a href="bts/player.html" id="hell">BTS Songs</a>
+
+				</div>
+			</div>
+			 <div class="artist">
+				 <img src="images/punjab.jpg" alt="">
+				 <div class="artist_desc">
+					 <a href="punjabi/player.html"id="hell">Punjabi Hits</a>
+				 </div>
+			 </div>
+
+			 <div class="artist">
+				 <img src="images/kannada.jpg" alt="">
+				 <div class="artist_desc">
+					 <a href="kannada/player.html" id="hell">Kannada</a>
+				 </div>
+			 </div>
+
+			 <div class="artist">
+				 <img src="images/bhakti.jpg" alt="">
+				 <div class="artist_desc">
+					 <a href="bhakti/player.html" id="hell">Bhakti Songs</a>
+					
+				 </div>
+			 </div>
+			 <div class="artist">
+				<img src="images/patriotic.jpg" alt="">
+				<div class="artist_desc">
+					<a href="patriotic/player.html" id="hell">Patriotic Songs</a>
+				   
+				</div>
+			</div>
+
+			<div class="artist">
+				<img src="images/telugu.jpg" alt="">
+				<div class="artist_desc">
+					<a href="telugu/player.html" id="hell">Telugu Songs</a>
+				   
+				</div>
+			</div>
+		 </div>
+	 </div>
+
+
+
+
+	 	
+		 <div class="popular_creator singers" id="singers">
+			<p id="heading"><i class='bx bx-trophy' ></i>&nbsp;&nbsp;Popular Singers</p>
+			 <div class="artists_list">
+ 
+				 <div class="artist">
+					 <img src="images/Arijit Singh.jpg" alt="">
+					 <div class="artist_desc">
+						 <p>Arjit Singh</p>
+						 <p><i class='bx bx-like' ></i><i class='bx bx-share' ></i>500+</p>
+					 </div>
+					 
+				 </div>
+ 
+				 <div class="artist">
+					 <img src="images/armaan malik.jpg" alt="">
+					 <div class="artist_desc">
+						 <p>Armaan Malik</p>
+						 <p><i class='bx bx-like' ></i><i class='bx bx-share' ></i>500+</p>
+					 </div>
+				 </div>
+ 
+				 <div class="artist">
+					 <img src="images/atif aslam.jpg" alt="">
+					 <div class="artist_desc">
+						 <p>Atif Aslam</p>
+						 <p><i class='bx bx-like' ></i><i class='bx bx-share' ></i>500+</p>
+					 </div>
+				 </div>
+ 
+				 <div class="artist">
+					 <img src="images/benny dayal.jpg" alt="">
+					 <div class="artist_desc">
+						 <p>Benny Dayal</p>
+						 <p><i class='bx bx-like' ></i><i class='bx bx-share' ></i>500+</p>
+					 </div>
+				 </div>
+ 
+				 <div class="artist">
+					 <img src="images/dhvani bhanushali.jpg" alt="">
+					 <div class="artist_desc">
+						 <p>Dhvani Bhanushali</p>
+						 <p><i class='bx bx-like' ></i><i class='bx bx-share' ></i>500+</p>
+					 </div>
+				 </div>
+ 
+				 <div class="artist">
+					 <img src="images/honey singh.jpg" alt="">
+					 <div class="artist_desc">
+						 <p>Honey Singh</p>
+						 <p><i class='bx bx-like' ></i><i class='bx bx-share' ></i>500+</p>
+					 </div>
+				 </div>
+ 
+				 <div class="artist">
+					 <img src="images/kanika kapoor.jpg" alt="">
+					 <div class="artist_desc">
+						 <p>Kanika Kapoor</p>
+						 <p><i class='bx bx-like' ></i><i class='bx bx-share' ></i>500+</p>
+					 </div>
+				 </div>
+
+				 <div class="artist">
+					<img src="images/mika isngh.jpg" alt="">
+					<div class="artist_desc">
+						<p>Mika Singh</p>
+						<p><i class='bx bx-like' ></i><i class='bx bx-share' ></i>500+</p>
+					</div>
+				</div>
+
+
+				<div class="artist">
+					<img src="images/neha kakkar.jpg" alt="">
+					<div class="artist_desc">
+						<p>Neha Kakkar</p>
+						<p><i class='bx bx-like' ></i><i class='bx bx-share' ></i>500+</p>
+					</div>
+				</div>
+
+				<div class="artist">
+					<img src="images/shreya ghoshal.jpg" alt="">
+					<div class="artist_desc">
+						<p>Shreya Ghoshal</p>
+						<p><i class='bx bx-like' ></i><i class='bx bx-share' ></i>500+</p>
+					</div>
+				</div>
+ 
+
+				<div class="artist">
+					<img src="images/sonu nigam.jpg" alt="">
+					<div class="artist_desc">
+						<p>Sonu Nigam</p>
+						<p><i class='bx bx-like' ></i><i class='bx bx-share' ></i>500+</p>
+					</div>
+				</div>
+
+
+				<div class="artist">
+					<img src="images/sunidhi chauhan.jpg" alt="">
+					<div class="artist_desc">
+						<p>Sunidhi Chauhan</p>
+						<p><i class='bx bx-like' ></i><i class='bx bx-share' ></i>500+</p>
+					</div>
+				</div>
+			 </div>
+		 </div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+		<div class="user_comments" id="user_comments">
+			<p id="heading"><i class='bx bx-comment-detail'></i>&nbsp;&nbsp;Comments</p>
+            
+           <div class="comments">
+
+           	 <div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-user' ></i>&nbsp;&nbsp;Anonymous</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+           	 		<p>I think music in itself is healing. It’s an explosive expression of humanity. It’s something we are all touched by. No matter what culture we’re from, everyone loves music</p>
+           	 		<div id="social">
+           	 			
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           	 <div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-user' ></i>&nbsp;&nbsp;Anonymous</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+           	 		<p>We grown-up people think that we appreciate music, but if we realized the sense that an infant has brought with it of appreciating sound and rhythm, we would never boast of knowing music. The infant is music itself.</p>
+           	 		<div id="social">
+           	 		
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           	 <div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-user' ></i>&nbsp;&nbsp;Anonymous</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+           	 		<p>Live your truth. Express your love. Share your enthusiasm. Take action towards your dreams. Walk your talk. Dance and sing to your music. Embrace your blessings. Make today worth remembering.</p>
+           	 		<div id="social">
+           	 		
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           	<div class="comment">
+           	 	<div id="user_p">
+           	 		<p><i class='bx bx-user' ></i>&nbsp;&nbsp;Anonymous</p>
+           	 		<p></p>
+           	 	</div>
+           	 	<div id="user_c">
+           	 		<p>Music acts like a magic key, to which the most tightly closed heart opens.Music can change the world because it can change people.</p>
+           	 		<div id="social">
+           	 		
+           	 		</div>
+           	 	</div>
+           	 </div>
+
+           </div>
+
+		</div>
+
+
+		<div class="footer" id="contact">
+			<a id="logo"><i class='bx bxs-bar-chart-alt-2' ></i>&nbsp;Melofy</a>
+		
+			<div class="social_handle">
+				<i class='bx bxl-twitter' ></i>
+				<i class='bx bxl-instagram' ></i>
+				<i class='bx bxl-facebook' ></i>
+			</div>
+		</div>
+		<div class="footer" style="background-color: #f2730a;">
+			<h1 id="credit" style="color: #2d2d2d;font-size: 1rem;
+			padding-top: 7px; padding-left: 40%;">Created By Neha</h1>
+		</div>
+
+	</div>
+
+  <script src="js/code.js"></script>
+ 
+</body>
+</html>

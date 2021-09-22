@@ -13,7 +13,7 @@ Group of projects completed by me as a part of Intern at LGM
 --------------------------------------------------------------
 
 
-## Project 1
+## Task-1
 <p>Name       : Melofy</p>
 <p>Type       : Frontend </p>
 <p>Techs      : HTML5, CSS3, JavaScript(ES6), Bootstrap.</p>
@@ -23,16 +23,22 @@ Group of projects completed by me as a part of Intern at LGM
 
 ===============================================================
 
-## Project 2
+## Task-2
 <p>Name       : User Cards</p>
 <p>Type       : React based Frontend with API integration</p>
-<p>Techs      : ReactJS, NodeJS, Materilize CSS</p>
+<p>Techs      : ReactJS, NodeJS, CSS</p>
 <p>Status     : Completed</p>
 
 
 
 ===============================================================
 
+## Task-3
+<p>Name       : Student Result Management System</p>
+<p>Type       : Full-stack (WAMP)</p>
+<p>Techs      :  PHP, MySQL</p>
+<p>Status     : Completed</p>
 
 
+===============================================================
 

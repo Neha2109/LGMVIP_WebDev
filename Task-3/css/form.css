@@ -1,0 +1,53 @@
+.main {
+  background-color: #9cadce;
+}
+
+input,
+select,
+option {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-size: 100%;
+}
+
+input[type="submit"] {
+  background-color: #804fb3;
+  color: white;
+  border: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #804fb3;
+  color: white;
+  opacity: 0.3;
+}
+
+fieldset {
+  font-size: 20px;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: solid;
+  padding: 20px;
+  margin: 0 15%;
+  color: #000;
+  border-color: black;
+}
+
+.error {
+  color: rgb(50, 228, 59);
+  margin: 30px 0 0 30vh;
+}

@@ -1,0 +1,35 @@
+.main {
+  display: grid;
+  justify-content: center;
+  padding: 30px;
+  background-color: #9cadce;
+}
+.main table {
+  padding-top: 50px;
+  margin: 50px auto;
+  background-color: white;
+}
+.main table,
+th,
+td {
+  border-collapse: collapse;
+  text-align: left;
+  table-layout: fixed;
+  padding: 8px 30px;
+  width: 60%;
+}
+
+.main th {
+  margin-top: 60px;
+  color: #0c82a7;
+}
+
+.main tr:hover {
+  background-color: #d1cfe2;
+}
+
+th,
+td {
+  border-bottom: 1px solid black;
+  font-weight: 600;
+}

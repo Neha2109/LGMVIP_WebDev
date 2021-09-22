@@ -16,7 +16,7 @@ Group of projects completed by me as a part of Intern at LGM
 ## Task-1
 <p>Name       : Melofy</p>
 <p>Type       : Frontend </p>
-<p>Techs      : HTML5, CSS3, JavaScript(ES6), Bootstrap.</p>
+<p>Techs      : HTML5, CSS3, JavaScript, Bootstrap.</p>
 <p>Status     : Completed</p>
 
 
